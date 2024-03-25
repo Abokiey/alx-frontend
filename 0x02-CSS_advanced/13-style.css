@@ -66,10 +66,6 @@ a:active{
 }
 
 
-.visually-hidden{
-    display: none;
-}
-
 .card-category{
     color: var(--color-primary);
 }
@@ -86,12 +82,14 @@ a:active{
     color: var(--section-title-color);
 }
 
-.section-tagline{
-    color: var(--color-primary);
-}
 
 .section-tagline{
+    color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+}
+
+.visually-hidden{
+    display: none;
 }
