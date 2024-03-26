@@ -229,14 +229,14 @@ ul.row{
 .card-services .card-title {
     margin: 0;
 }
+
 .card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
-.card-services a:hover{
-    display: block;
+.card-services a:hover {
     background-color: var(--color-primary);
     text-decoration: none;
 }
